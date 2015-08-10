@@ -1,0 +1,76 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+.navbar {
+    border-top: 5px solid #D80000!important;
+}
+
+.navbar-default {
+    border: none;
+    background-color: #442928;
+    border-radius: 0;
+}
+
+.item {
+    color: #FFF !important;
+    text-shadow: 1px 1px #000;
+}
+
+.item:hover {
+    color: #EAC000!important;
+}
+
+.active>.item {
+    background: #5E3937!important;
+}
+
+.page-header>h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+.about>.page-header>h1 {
+    color: #0096AE;
+}
+
+.services>.page-header>h1 {
+    color: #DC0000;
+}
+
+.team>.page-header>h1 {
+    color: #FAB900;
+}
+
+.contact>.page-header>h1 {
+    color: #412C25;
+}
+
+.bowx {
+    background: #8D3199 url('https://placehold.it/400x400/8D3199/FFF?text=Services') center;
+    margin: 0px;
+    height: 200px;
+}
+
+.about>.container>p {
+    text-align: justify;
+    font-size: 24px;
+}
+
+.bowx + h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-circle {
+    width: 200px;
+}
+.intro-video{
+	width: 100%;
+	height: 100vh;
+	background: url('https://placehold.it/1900x800/E69797/FFF?text=Burger!!!') center no-repeat fixed;
+	margin-top: -24px;
+}
