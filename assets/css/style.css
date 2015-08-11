@@ -54,6 +54,7 @@ body {
 }
 .contact{
     color: #fff;
+    overflow: hidden;
 }
 .cnt {
     margin-top: 5%;
@@ -88,7 +89,7 @@ body {
 .intro-video{
 	width: 100%;
 	height: 100vh;
-	background: url('https://placehold.it/1900x800/E69797/FFF?text=Burger!!!') center no-repeat fixed;
+	background: url('https://placehold.it/1900x1000/E69797/FFF?text=Burger!!!') center no-repeat fixed;
 	margin-top: -24px;
 }
 #submit{
@@ -100,33 +101,38 @@ body {
 }
 .tobar{
     border: medium none;
-border-radius: 0px;
-margin: 0px;
-padding: 0px;
+border-radius: 0;
+margin: 0;
+padding: 0;
 }
-#number{
+.number{
     color: red;
     font-size:2em;
     font-weight:bolder;
-    margin-top: 5%;
+position: absolute;
+top: 6%;
+right: 40%;
 }
 .tobar-brand{
     float: left;
 }
 .social{
-    display: block;
+display: block;
 float: right;
-list-style-type: none;
 margin-top: 5%;
 font-size: 1.3em;;
 }
 .social li {
     display: inline-block; 
-     color: #fff;
-     border-radius:50%;
-    width:32px;
-    height:32px;
-    overflow: hidden;
+
+
+}
+.social  .fa{
+    color: #fff;
+    border-radius: 50px;
+width: 50px;
+height: 50px;
+line-height: 1.6;
 }
 .social .fa-facebook{
    
@@ -189,4 +195,24 @@ font-size: 1.3em;;
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
+}
+
+.video {
+    top: 25%;
+    position: relative;
+    width: 100%;
+    
+}
+.trigger{
+    color: #000;
+}
+.trigger:hover{
+    color: #181818;
+}
+.play {
+    position: relative;
+    font-size: 7em;
+    width: 100%;
+    height: 100%;
+    
 }
