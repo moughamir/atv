@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Open Sans';
     font-size: 18px;
@@ -5,12 +6,16 @@ body {
 
 .navbar {
     border-top: 5px solid #D80000!important;
+    margin:0;
+    padding:0;
 }
 
 .navbar-default {
     border: none;
     background-color: #442928;
     border-radius: 0;
+    margin:0;
+    padding:0;
 }
 
 .item {
@@ -44,7 +49,18 @@ body {
 .team>.page-header>h1 {
     color: #FAB900;
 }
-
+.box{
+    background-color: #000;
+}
+.contact{
+    color: #fff;
+}
+.cnt {
+    margin-top: 5%;
+}
+.cnt2 {
+    margin-left: 25%;
+}
 .contact>.page-header>h1 {
     color: #412C25;
 }
@@ -67,10 +83,110 @@ body {
 
 .img-circle {
     width: 200px;
+    border: 3.5px solid #3498db;
 }
 .intro-video{
 	width: 100%;
 	height: 100vh;
 	background: url('https://placehold.it/1900x800/E69797/FFF?text=Burger!!!') center no-repeat fixed;
 	margin-top: -24px;
+}
+#submit{
+    width:100%;
+    background-color:#e74c3c;
+    text-shadow: 1px 1px #3d3d3d;
+    border:none;
+    border-radius:3px;
+}
+.tobar{
+    border: medium none;
+border-radius: 0px;
+margin: 0px;
+padding: 0px;
+}
+#number{
+    color: red;
+    font-size:2em;
+    font-weight:bolder;
+    margin-top: 5%;
+}
+.tobar-brand{
+    float: left;
+}
+.social{
+    display: block;
+float: right;
+list-style-type: none;
+margin-top: 5%;
+font-size: 1.3em;;
+}
+.social li {
+    display: inline-block; 
+     color: #fff;
+     border-radius:50%;
+    width:32px;
+    height:32px;
+    overflow: hidden;
+}
+.social .fa-facebook{
+   
+    background-color: #4060A5;
+
+
+}
+
+.social .fa-twitter{
+    background-color: #00ABE3;
+    
+}
+.social .fa-youtube{
+    background-color: #CD332D;
+
+
+}
+
+.social .fa-google-plus{
+    background-color: #e64522;
+
+}
+
+.social .fa-linkedin{
+    background-color: #0094BC;
+
+}
+
+/* media query for tablet and bigger min-width: 768px */
+.grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+    
+/* and I quote*/
+.testament blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.testament blockquote img {
+    margin-bottom: 10px;
+}
+
+.testament blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
 }
