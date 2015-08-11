@@ -34,7 +34,7 @@
     </div>
   </div>
 </nav>
-    <nav class="navbar navbar-default" role="navigation"><!--navbar-fixed-top-->
+    <nav id="navi" class="navbar navbar-default" role="navigation"><!--navbar-fixed-top-->
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false">
@@ -217,8 +217,24 @@
     <footer>
         
     </footer>
+    
     <script src="assets/js/jquery-2.1.4.min.js"></script>
     <script src="assets/twbs/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function() {
+
+    $(window).scroll(function () {
+
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 160) {
+      $('#navi').addClass('navbar-fixed-top');
+    }
+    if ($(window).scrollTop() < 160) {
+      $('#navi').removeClass('navbar-fixed-top');
+    }
+  });
+});
+    </script>
 </body>
 
 </html>
