@@ -50,7 +50,7 @@
                         <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
                         <li class="active"><a href="#about" class="item page-scroll">À toute vitesse</a></li>
                         <li class=""><a href="#services" class="item page-scroll">Service</a></li>
-                        <li class=""><a href="#" class="item page-scroll">Témoignage</a></li>
+                        <li class=""><a href="#temoignage" class="item page-scroll">Témoignage</a></li>
                         <li class=""><a href="#team" class="item page-scroll">Équipes</a></li>
                         <li class=""><a href="#contact" class="item page-scroll">Contact</a></li>
                     </ul>
@@ -63,7 +63,7 @@
         <a href="#" class="trigger"><i class="fa fa-lg fa-play-circle-o  fa-5 play"></i></a>
     </div>
     </header>
-    <section class="about">
+    <section id="about" class="about">
         <header class="page-header container">
             <h1>À toute vitesse</h1>
         </header>
@@ -71,7 +71,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident consequuntur recusandae beatae vel vitae, enim accusamus. Quaerat nihil corrupti minima aliquid possimus veniam, ratione accusamus asperiores eum, ipsum officiis quo!</p>
         </div>
     </section>
-    <section class="services container">
+    <section id="services" class="services container">
         <header class="page-header">
             <h1>Services</h1>
         </header>
@@ -98,7 +98,7 @@
             </article>
         </section>
     </section>
-    <section class="extra container">
+    <section id="temoignage" class="extra container">
     <header class="page-header"></header>
     <div class="row grid-divider">
         <div class="col-sm-6">
@@ -128,7 +128,7 @@
         </div>
     </div>
     </section>
-    <section class="team container">
+    <section id="team" class="team container">
         <header class="page-header">
             <h1>Équipes</h1>
         </header>
@@ -155,7 +155,7 @@
             </article>
         </section>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
         <header class="page-header">
             <h1>Contact</h1>
         </header>
@@ -225,7 +225,7 @@
 
     $(window).scroll(function () {
 
-      console.log($(window).scrollTop())
+      //console.log($(window).scrollTop()) // for next dev
     if ($(window).scrollTop() > 160) {
       $('#navi').addClass('navbar-fixed-top');
     }
@@ -234,6 +234,7 @@
     }
   });
 });
+
     </script>
 </body>
 
